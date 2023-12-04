@@ -1,0 +1,71 @@
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+body {
+  background-color: #242424;
+  text-align: center;
+  margin-top: 10%;
+}
+
+#add-task {
+  margin: 20px;
+}
+
+#title {
+  font-size: 4rem;
+}
+
+button,input {
+  padding: 8px;
+  border-radius: 10px;
+  margin: 10px;
+  font-size: 1.2rem;
+}
+
+input {
+  color: black;
+}
+
+button {
+  color: white;
+  background-color: black;
+  border: none;
+  cursor: pointer;
+}
+
+
+.item:first-child {
+  margin-top: 50px;
+}
+
+p {
+  display: inline-block;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+img {
+  height: 30px;
+}
+
+.item {
+  display: flex;
+  margin: 20px;
+  justify-content: center;
+}
+
+.item p {
+  padding-right: 20px;
+}
+
+.item button{
+  font-size: 1.6rem;
+  font-weight: bold;
+}
